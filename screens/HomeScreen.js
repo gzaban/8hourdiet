@@ -19,7 +19,7 @@ export default class HomeScreen extends React.Component {
       <View style={styles.container}>
         <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
           <View style={styles.welcomeContainer}>
-	          <Text style={styles.getStartedText}>Get started by opening</Text>
+	          <Text style={styles.getStartedText}>Time To Food</Text>
 	          <Clock deadline="May, 4, 2019" />
           </View>
         </ScrollView>
