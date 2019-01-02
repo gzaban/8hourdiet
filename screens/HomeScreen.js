@@ -19,8 +19,10 @@ export default class HomeScreen extends React.Component {
       <View style={styles.container}>
         <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
           <View style={styles.welcomeContainer}>
-	          <Text style={styles.getStartedText}>Time To Food</Text>
 	          <Clock deadline="May, 4, 2019" />
+	          <Text  style={styles.getStartedText}>Time</Text>
+	          <Text  style={styles.getStartedText}>To</Text>
+	          <Text  style={styles.getStartedText}>Food</Text>
           </View>
         </ScrollView>
 
@@ -53,35 +55,13 @@ const styles = StyleSheet.create({
   },
   welcomeContainer: {
     alignItems: 'center',
-    marginTop: 10,
+    marginTop: 30,
     marginBottom: 20,
   },
-  welcomeImage: {
-    width: 100,
-    height: 80,
-    resizeMode: 'contain',
-    marginTop: 3,
-    marginLeft: -10,
-  },
-  getStartedContainer: {
-    alignItems: 'center',
-    marginHorizontal: 50,
-  },
-  homeScreenFilename: {
-    marginVertical: 7,
-  },
-  codeHighlightText: {
-    color: 'rgba(96,100,109, 0.8)',
-  },
-  codeHighlightContainer: {
-    backgroundColor: 'rgba(0,0,0,0.05)',
-    borderRadius: 3,
-    paddingHorizontal: 4,
-  },
   getStartedText: {
-    fontSize: 17,
+    fontSize: 60,
+	fontFamily: 'raleway-light' ,
     color: 'rgba(96,100,109, 1)',
-    lineHeight: 24,
     textAlign: 'center',
   },
   tabBarInfoContainer: {
